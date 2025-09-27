@@ -1,4 +1,4 @@
-# flash-attention 3 prebuilt wheels for H100
+# FlashAttention-3 pre-built wheels for H100
 
 This repository hosts prebuilt Python wheels for [flash-attn v3](https://github.com/Dao-AILab/flash-attention), 
 compiled for NVIDIA H100 GPUs.
