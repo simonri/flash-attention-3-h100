@@ -1,3 +1,7 @@
 
 # ignore wheels
 *.whl
+
+
+.ruff_cache
+.venv

@@ -1,0 +1,16 @@
+[project]
+name = "flash-attention-3-h100"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flash-attn-3",
+    "numpy>=2.3.4",
+]
+
+[tool.uv.sources]
+flash-attn-3 = { url = "https://github.com/simonri/flash-attention-3-h100/releases/download/v1.0.0/flash_attn_3-3.0.0b1-cp39-abi3-linux_x86_64.whl" }
+
+[tool.ruff]
+indent-width = 2
